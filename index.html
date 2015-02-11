@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Social Web Architecture</title>
+    <meta charset='utf-8'>
+    <script src='http://www.w3.org/Tools/respec/respec-w3c-common'
+            async class='remove'></script>
+    <script class='remove'>
+      var respecConfig = {
+          // specification status (e.g. WD, LCWD, WG-NOTE, etc.). If in doubt use ED.
+          specStatus:           "unofficial",
+
+          // the specification's short name, as in http://www.w3.org/TR/short-name/
+          shortName:            "social-arch",
+
+          // if your specification has a subtitle that goes below the main
+          // formal title, define it here
+          // subtitle   :  "an excellent document",
+
+          // if you wish the publication date to be other than the last modification, set this
+          // publishDate:  "2009-08-06",
+
+          // if the specification's copyright date is a range of years, specify
+          // the start date here:
+          // copyrightStart: "2005"
+
+          // if there is a previously published draft, uncomment this and set its YYYY-MM-DD date
+          // and its maturity status
+          // previousPublishDate:  "1977-03-15",
+          // previousMaturity:  "WD",
+
+          // if there a publicly available Editor's Draft, this is the link
+          // edDraftURI:           "http://berjon.com/",
+
+          // if this is a LCWD, uncomment and set the end of its review period
+          // lcEnd: "2009-08-05",
+
+          // editors, add as many as you like
+          // only "name" is required
+          editors:  [
+              {
+                  name:       "elf Pavlik"
+              ,   url:        "http://wwelves.org/perpetual-tripper"
+              ,   company:    "hackers4peace"
+              ,   companyURL: "http://hackers4peace.net"
+              }
+          ],
+          authors:  [
+              {
+                  name:       "elf Pavlik"
+              ,   url:        "http://wwelves.org/perpetual-tripper"
+              ,   company:    "hackers4peace"
+              ,   companyURL: "http://hackers4peace.net"
+              }
+          ],
+
+          // name of the WG
+          wg:           "In Charge Of This Document Working Group",
+
+          // URI of the public WG page
+          wgURI:        "http://example.org/really-cool-wg",
+
+          // name (without the @w3c.org) of the public mailing to which comments are due
+          wgPublicList: "spec-writers-anonymous",
+
+          // URI of the patent status for this WG, for Rec-track documents
+          // !!!! IMPORTANT !!!!
+          // This is important for Rec-track documents, do not copy a patent URI from a random
+          // document unless you know what you're doing. If in doubt ask your friendly neighbourhood
+          // Team Contact.
+          wgPatentURI:  "",
+          // !!!! IMPORTANT !!!! MAKE THE ABOVE BLINK IN YOUR HEAD
+      };
+    </script>
+  </head>
+  <body>
+    <section id='abstract'>
+      <p>
+        This is the abstract for your specification.
+      </p>
+    </section>
+
+    <section id='sotd'>
+      <p>
+        You need to have a custom SotD paragraph. Maybe give a succinct description of your spec's
+        status.
+      </p>
+    </section>
+
+    <section>
+      <h2>Introduction</h2>
+
+      <ul>
+        <li>Social Web Glossary</li>
+      </ul>
+
+      <ul>
+        <li>WEBARCH</li>
+        <li>COOLURIS</li>
+        <li>URLs in Data</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Topologies</h2>
+    </section>
+
+    <section>
+      <h2>Data model</h2>
+      <section>
+        <h3>Linked Data and Semantic Web</h3>
+        <section>
+          <h4>IRI, URI and URL</h3>
+          <section>
+            <h5>http:</h5>
+          </section>
+          <section>
+            <h5>acct:, mailto:, xmpp: etc.</h5>
+          </section>
+        </section>
+        <section>
+          <h4>RDF</h3>
+        </section>
+        <section>
+          <h4>Vocabularies</h3>
+          <ul>
+            <li>Activity Streams</li>
+            <li>Schema.org</li>
+            <li>Linked Open Vocabularies</li>
+          </ul>
+          <p>also called Ontologies</p>
+        </section>
+        <section>
+          <h4>RDFS, OWL and SKOS</h3>
+          <ul>
+            <li>Working Ontologist</li>
+            <li>Linked Data Patterns</li>
+          </ul>
+        </section>
+      </section>
+      <section>
+        <h3>Multiple Serializations</h3>
+        <section>
+          <h4>JSON-LD, RDFa and Turtle</h3>
+          <ul>
+            <li>embedding JSON-LD in HTML</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Microdata and Microformats</h3>
+        </section>
+        <section>
+          <h4>Content Negotiation</h3>
+        </section>
+        <section>
+          <h5>Streaming</h5>
+        </section>
+      </section>
+      <section>
+        <h3>Collections</h3>
+        <p>Containers and Lists</p>
+        <h4>Ordering</h4>
+      </section>
+      <section>
+        <h3>Media Objects</h3>
+      </section>
+      <section>
+        <h3>Spacial and Temporal data</h3>
+      </section>
+      <section>
+        <h3>Extensibility</h3>
+      </section>
+    </section>
+    <section>
+      <h2>API</h2>
+      <section>
+        <h3>Discovery</h3>
+        <section>
+          <h4>Follow your nose</h4>
+        </section>
+        <section>
+          <h4>Webfinger</h4>
+        </section>
+      </section>
+      <section>
+        <h3>Hypermedia</h3>
+        <section>
+          <h4>Link Relations and Predicates</h4>
+        </section>
+        <section>
+          <h4>Affordances</h3>
+        </section>
+      </section>
+      <section>
+        <h3>Reading</h3>
+        <section>
+          <h4>Pagination</h3>
+        </section>
+        <section>
+          <h4>Querying</h3>
+        </section>
+      </section>
+      <section>
+        <h3>Writing</h3>
+        <section>
+          <h4>Replacing and Updating</h4>
+        </section>
+        <section>
+          <h4>Deleting</h4>
+        </section>
+        <section>
+          <h4>Adding and Removing</h4>
+        </section>
+      </section>
+      <section>
+        <h3>Streaming and Real Time</h3>
+      </section>
+      <section>
+        <h3>Extensibility</h3>
+      </section>
+    </section>
+    <section>
+      <h2>Federation</h2>
+      <section>
+        <h3>Syndication</h3>
+        <section>
+          <h4>Canonical resources</h4>
+        </section>
+      </section>
+      <section>
+        <h3>Publish/Subscribe</h3>
+      </section>
+      <section>
+        <h3>Extensibility</h3>
+      </section>
+    </section>
+
+    <section>
+      <h2>Security</h2>
+      <section>
+        <h3>Identity</h3>
+        <section>
+          <h4>Accounts</h4>
+        </section>
+        <section>
+          <h4>Personas and Profiles</h4>
+        </section>
+        <section>
+          <h4>Credentials</h4>
+        </section>
+      </section>
+      <section>
+        <h3>Authentication</h3>
+      </section>
+      <section>
+        <h3>Authorization</h3>
+      </section>
+      <section>
+        <h3>Access Control</h3>
+      </section>
+      <section>
+        <h3>Digital Signatures</h3>
+      </section>
+      <section>
+        <h3>Claims, Proofs and verification</h3>
+        <section>
+          <h4>Hosted</h3>
+        </section>
+        <section>
+          <h4>Signed</h3>
+        </section>
+      </section>
+    </section>
+    <section>
+      <h2>Privacy</h2>
+    </section>
+    <section>
+      <h2>Legal</h2>
+      <section>
+        <h3>Licensing the data</h2>
+      </section>
+      <section>
+        <h3>Terms of Service</h2>
+        <ul>
+          <li>https://tosdr.org/</li>
+        </ul>
+      </section>
+    </section>
+
+
+    <section class='appendix'>
+      <h2>Acknowledgements</h2>
+      <p>
+        Many thanks to Robin Berjon for making our lives so much easier with his cool tool.
+      </p>
+    </section>
+  </body>
+</html>
